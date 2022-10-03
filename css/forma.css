@@ -1,0 +1,85 @@
+body
+{
+	background:  url(../img/background.jpeg)
+}
+
+#forma
+{
+	background: white;
+	margin: 0 auto;
+	padding: 25px 0 0;
+	text-align: center;
+	width: 500px;
+	height: 440px;
+}
+
+#forma h1
+{
+	color: rgb(165, 55, 178);
+	font: bold 25px Arial;
+}
+
+#forma input[type="text"],
+#forma input[type="password"],
+#forma input[type="date"],
+#forma input[type="email"]
+{
+	border: 1px solid #b5b2b2;
+	color: #b5b2b2;
+	font: Arial 14px;
+	margin: 0 0 10px;
+	padding: 15px 15px 15px 40px;
+	width: 400px;
+	background: url(../img/icons.png) no-repeat;
+}
+
+font
+{
+	color: #b5b2b2;
+	font: 14px Arial;
+}
+
+#username
+{
+	background-position: 4px -68px !important
+}
+
+#password
+{
+	background-position: 4px -101px !important
+}
+
+#date
+{
+	background-position: 4px -32px !important
+}
+
+#email
+{
+	background-position: 4px 2px !important
+}
+
+#forma input[type="text"]:focus,
+#forma input[type="password"]:focus,
+#forma input[type="date"]:focus,
+#forma input[type="email"]:focus
+{
+	border: 2px solid orange;
+	outline: none;
+}
+
+#forma input[type="submit"]
+{
+	background: rgb(238, 145, 145);
+	border: 1px solid rgb(238, 31, 111);
+	font: bold 16px Arial;
+	color: #77097f;
+	width: 450px;
+	height: 50px;
+	margin-top: 15px;
+}
+
+#forma input[type="submit"]:hover
+{
+	background: rgb(223, 63, 119);
+}
